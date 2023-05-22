@@ -1,0 +1,23 @@
+.profile {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+.description {
+}
+.avatar {
+  width: 200px;
+  border-radius: 50%;
+}
+.name {
+}
+.tag {
+}
+.location {
+}
+.stats {
+}
+.label {
+}
+.quantity {
+}
