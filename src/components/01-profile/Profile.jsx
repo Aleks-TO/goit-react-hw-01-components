@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 const Profile = props => {
   return (
-    <div className={css.Profile}>
+    <div className={css.profile}>
       <div className={css.description}>
         <img src={props.avatar} alt={props.username} className={css.avatar} />
         <p className={css.name}>{props.username}</p>
-        <p className={css.tag}>{props.tag}</p>
+        <p className={css.tag}>@{props.tag}</p>
         <p className={css.location}>{props.location}</p>
       </div>
 
@@ -31,7 +31,7 @@ const Profile = props => {
 
 export { Profile };
 
-Profile.PropTypes = {
+Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
