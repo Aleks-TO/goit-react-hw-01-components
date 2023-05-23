@@ -1,0 +1,30 @@
+.transactionHistory {
+  font-size: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+thead {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+th,
+td {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(228, 228, 228);
+  padding: 8px;
+  transition: color 250ms, background-color 250ms;
+}
+td:hover {
+  background-color: rgb(115, 202, 231);
+  color: rgb(21, 43, 167);
+}
+
+th {
+  width: calc(100% / 3);
+  background-color: rgb(49, 46, 233);
+  color: rgb(255, 255, 255);
+}
