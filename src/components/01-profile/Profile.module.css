@@ -12,6 +12,10 @@
   /* margin-left: auto;
   margin-right: auto; */
 }
+.profile:hover {
+  box-shadow: 4px 4px 20px 0px rgba(22, 77, 34, 0.705);
+}
+
 .description {
   padding: 20px;
 }
